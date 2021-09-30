@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 0.02fr 1fr; 
     grid-template-rows: 1fr 1fr 1fr 1fr; 
     gap: 0px 0px; 
-    border-style: dotted;
+    
     border-color: white;
     grid-template-areas: 
       "item-1 item-1 item-1"
@@ -12,10 +12,10 @@
       "item-6 . item-7"; 
   }
   
-  .grid-item-1 { grid-area: item-1; text-align: center;   border-style: dotted;}
-  .grid-item-2 { grid-area: item-2; text-align: right;   border-style: dotted;}
-  .grid-item-3 { grid-area: item-3; text-align: left;   border-style: dotted;}
-  .grid-item-4 { grid-area: item-4; text-align: right;   border-style: dotted;}
-  .grid-item-5 { grid-area: item-5; text-align: left;   border-style: dotted;}
-  .grid-item-6 { grid-area: item-6; text-align: right;   border-style: dotted;}
-  .grid-item-7 { grid-area: item-7; text-align: left;   border-style: dotted;}
+  .grid-item-1 { grid-area: item-1; text-align: center;}
+  .grid-item-2 { grid-area: item-2; text-align: right;}  
+  .grid-item-3 { grid-area: item-3; text-align: left;}
+  .grid-item-4 { grid-area: item-4; text-align: right;}
+  .grid-item-5 { grid-area: item-5; text-align: left;}
+  .grid-item-6 { grid-area: item-6; text-align: right;}
+  .grid-item-7 { grid-area: item-7; text-align: left;}
