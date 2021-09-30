@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>social media</title>
+        <link rel="stylesheet" href="../css/font stil.css">
+        <link rel="stylesheet" href="../css/sosiale media grids.css">
+       
+    </head>
+
+    <body>
+        <div class = "homebar">
+            <a href="../index.html" class="homolinks">&nbsphomepage |</a> <!-- homopoage-->
+            <a href="../html/who am i.html" class="homolinks">&nbspabout me |</a> <!-- more about me-->
+            <a href="../html/sosiale medier.html" class="homolinks" style="text-decoration: underline;">&nbspsocial media |</a><!-- social media-->
+            <a href="../html/prokjekter.html" class="homolinks">&nbspprojects |</a> <!-- projects-->
+            <img src="../pictures/iconer/pngfind.com-sun-silhouette-png-1897017.png" id="icon"> &nbsp
+
+        </div>
+
+        <div class="grid-container"> 
+            <div class="grid-item grid-item-1">
+                <h1>Sosiale Medier</h1>
+            </div>
+            <div class="grid-item grid-item-2">
+                <a href="https://www.reddit.com/user/Homie_Raven/">my reddit profile</a>
+            </div>
+            <div class="grid-item grid-item-3">
+                where i shitpost           
+            </div>
+            <div class="grid-item grid-item-4">
+                <a href="https://discordapp.com/users/612999200086425600">my dicscord profile</a> 
+            </div>
+            <div class="grid-item grid-item-5">
+                 my dicord for talkin
+            </div>
+            <div class="grid-item grid-item-6">
+                <a href="https://github.com/monke-hackerman">my git hub</a>
+            </div>
+            <div class="grid-item grid-item-7">
+                my git hub for the code if you care about that
+        </div>
+
+
+
+
+                
+    
+                
+
+        
+        </div>
+
+
+
+
+        <script>
+            var icon = document.getElementById("icon");
+            icon.onclick = function(){
+                document.body.classList.toggle("light-theme");
+                if(document.body.classList.contains("light-theme")){
+                    icon.src = "../pictures/iconer/61412.png";
+                } else {
+                icon.src = "../pictures/iconer/pngfind.com-sun-silhouette-png-1897017.png";
+            }
+            }
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+body {
+    background-color: var(--primery-color);  font-family: Arial, Helvetica, sans-serif; color: var(--secondary-color);
+  }
+  
+a {
+  font-family: Arial, Helvetica, sans-serif; color: var(--secondary-color);
+  text-align: center;
+
+}
+
+#icon{
+    width: 25px;
+    cursor: pointer;
+    
+
+}
+
+:root{
+   --primery-color: rgb(31, 25, 25);
+   --secondary-color: rgb(248, 231, 231);
+   --primery-boarder: rgb(248, 231, 231);
+
+}
+.light-theme{
+  --primery-color: rgb(248, 231, 231);
+  --secondary-color: rgb(27, 22, 22);
+  --secondary-boarder: rgb(248, 231, 231);
+}
+
+.homebar{
+    position: fixed;
+    right: 50px;
+    border: var(--primery-boarder);
+    border-radius: 10px;
+    border-style: ridge;
+    font-size: 16px;
+}
+a.homolinks:link{
+  text-decoration: none;
+}
+a.homolinks:hover{
+  text-decoration: underline;
+}
+
+
+
+

@@ -1,0 +1,15 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-gap: 20px;
+    grid-template-areas: "header header";
+
+
+}
+
+.grid-item-1{
+    text-align: center;
+    grid-column-start:1 ;
+    grid-column-end:4 ;
+
+}

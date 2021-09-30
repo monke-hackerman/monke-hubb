@@ -1,0 +1,31 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-gap: 20px;
+    grid-template-areas: "header header";
+
+
+}
+
+.grid-item-1{
+    text-align: center;
+    grid-column-start:1 ;
+    grid-column-end:4 ;
+    border-style: dotted;
+}
+.grid-item-2{
+    border-style: dotted;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.grid-item-3{
+    border-style: dotted;
+    grid-column-start:2 ;
+    grid-column-end: 3;
+}
+.grid-item-4{
+    border-style: dotted;
+    grid-column-start:3;
+    grid-column-end:4;
+}
+
