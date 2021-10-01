@@ -30,6 +30,7 @@ a {
 .homebar{
     position: fixed;
     right: 50px;
+    height: 30px;
     border: var(--primery-boarder);
     border-radius: 10px;
     border-style: ridge;
