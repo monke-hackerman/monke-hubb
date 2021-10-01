@@ -3,19 +3,20 @@
     grid-template-columns: 1fr 0.02fr 1fr; 
     grid-template-rows: 1fr 1fr 1fr 1fr; 
     gap: 0px 0px; 
-    
+    text-align: center;
     border-color: white;
     grid-template-areas: 
-      "item-1 item-1 item-1"
-      "item-2 . item-3"
-      "item-4 . item-5"
-      "item-6 . item-7"; 
-  }
+    "item-1 item-1 item-1"
+    "item-2 item-2 item-2"
+    "item-3 item-3 item-3"
+    "item-4 item-4 item-4"
+    "item-5 item-5 item-5"; 
+}
   
   .grid-item-1 { grid-area: item-1; text-align: center;}
-  .grid-item-2 { grid-area: item-2; text-align: right;}  
-  .grid-item-3 { grid-area: item-3; text-align: left;}
-  .grid-item-4 { grid-area: item-4; text-align: right;}
-  .grid-item-5 { grid-area: item-5; text-align: left;}
-  .grid-item-6 { grid-area: item-6; text-align: right;}
-  .grid-item-7 { grid-area: item-7; text-align: left;}
+  .grid-item-2 { grid-area: item-2; text-align: center;}  
+  .grid-item-3 { grid-area: item-3; text-align: center;}
+  .grid-item-4 { grid-area: item-4; text-align: center;}
+  .grid-item-5 { grid-area: item-5; text-align: center;}
+  .grid-item-6 { grid-area: item-6; text-align: center;}
+  .grid-item-7 { grid-area: item-7; text-align: center;}
