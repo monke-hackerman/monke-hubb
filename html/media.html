@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <title>projects</title>
+        <link rel="stylesheet" href="../css/font stil.css">
+        <link rel="stylesheet" href="../css/prokject grid.css">
+
+    </head>
+
+    <body>
+        <div class = "homebar">
+            <a href="../index.html" class="homolinks">&nbsphomepage |</a>  <!-- homepadge-->
+            <a href="../html/who am i.html" class="homolinks">&nbspabout me |</a> <!-- more about me -->
+            <a href="../html/sosiale medier.html" class="homolinks">&nbspsocial media |</a> <!-- social media-->
+            <a href="../html/prokjekter.html" class="homolinks" style="text-decoration: underline;">&nbspprojects |</a> <!-- projects-->
+ 
+         <img src="../pictures/iconer/pngfind.com-sun-silhouette-png-1897017.png" id="icon"> &nbsp
+
+        </div>
+
+    
+        <div class="grid-container"> 
+            <div class="grid-item grid-item-1">  <!--- her grids start -->
+
+                <h1 style="text-align: center;">media projects</h1>
+                <h3 style="text-align: center;">media projects vil be placed here</h3>
+
+            </div>
+
+            <div class="grid-item grid-item-2">
+
+            </div>
+            <div class="grid-item grid-item-3">
+                <p>my video trailer procject</p>
+                <video width="480" height="300" controls>
+                    <source src="../pictures/prokjekt/" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+ 
+            <div class="grid-item grid-item-4">
+                
+            </div>
+
+        </div> <!-- grid end -->
+
+            
+        </center>
+
+        <!-- this code was made not by me so i can exsplain it srry-->
+        <script> 
+            var icon = document.getElementById("icon");
+            icon.onclick = function(){
+                document.body.classList.toggle("light-theme");
+                if(document.body.classList.contains("light-theme")){
+                    icon.src = "../pictures/iconer/61412.png";
+                } else {
+                icon.src = "../pictures/iconer/pngfind.com-sun-silhouette-png-1897017.png";
+            }
+            }
+
+        </script>
+    </body>
+</html>
