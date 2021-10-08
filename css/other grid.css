@@ -1,15 +1,32 @@
 .grid-container {
-    display: grid;
-    grid-template-columns: 500px 500px;
-    grid-gap: 20px;
-    grid-template-areas: "header header";
-
-
-}
-
-.grid-item-1{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 0.1fr 0.3fr 0.3fr; 
+    gap: 0px 0px; 
     text-align: center;
-    grid-column-start:1 ;
-    grid-column-end:4 ;
-
+    border-color: white;
+    grid-template-areas: 
+    "item-1 item-1 item-1"
+    "item-2 item-3 item-4"
+    "item-5 item-6 item-7";
 }
+  
+  .grid-item-1 { grid-area: item-1; text-align: center;}
+  .grid-item-2 { grid-area: item-2; text-align: center;}  
+  .grid-item-3 { grid-area: item-3; text-align: center;}
+  .grid-item-4 { grid-area: item-4; text-align: center;}
+  .grid-item-5 { grid-area: item-5; text-align: center;}
+  .grid-item-6 { grid-area: item-6; text-align: center;}
+  .grid-item-7 { grid-area: item-7; text-align: center;}
+
+
+  /*
+  .grid-item-1 { grid-area: item-1; text-align: center; border-style: dotted;}
+  .grid-item-2 { grid-area: item-2; text-align: center;border-style: dotted;}  
+  .grid-item-3 { grid-area: item-3; text-align: center;border-style: dotted;}
+  .grid-item-4 { grid-area: item-4; text-align: center;border-style: dotted;}
+  .grid-item-5 { grid-area: item-5; text-align: center;border-style: dotted;}
+  .grid-item-6 { grid-area: item-6; text-align: center;border-style: dotted;}
+  .grid-item-7 { grid-area: item-7; text-align: center;border-style: dotted;}
+  */
+  /*for when i ned to see the lines*/
