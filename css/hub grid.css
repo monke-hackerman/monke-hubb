@@ -24,6 +24,7 @@
     grid-column-start:2 ;
     grid-column-end: 3;
     border-style: solid;
+    text-align: center;
 }
 .grid-item-4{
 
