@@ -23,6 +23,7 @@
     text-align: left;
     grid-column-start:2 ;
     grid-column-end: 3;
+    border-style: solid;
 }
 .grid-item-4{
 
