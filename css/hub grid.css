@@ -6,7 +6,7 @@
 
 
 }
-.shitiimg{max-width: 10px; height: auto }
+.shitiimg{object-fit: scale-down;}
 
 
 /* top text*/
